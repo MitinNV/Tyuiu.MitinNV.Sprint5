@@ -6,16 +6,23 @@ namespace Tyuiu.MitinNV.Sprint5.Task1.V19.Lib
     {
         public string SaveToFileTextData(int startValue, int stopValue)
         {
-            double res = 0;
+            string res = "";
             for (int x = startValue; x <= stopValue; x++) 
             {
                 if (!(3 * x + 0.5 == 0))
                 {
-                    res += Math.Sin(x) + ((2) / (3 * x + 0.5)) - 2 * Math.Cos(x) * 2 * x;
+                    var a = Convert.ToString(Math.Sin(x) + ((2) / (3 * x + 0.5)) - 2 * Math.Cos(x) * 2 * x);
+                    if (x != stopValue)
+                    {
+                        res += a + "\n";
+                    } else
+                    {
+                        res += a;
+                    }
                 }
             }
 
-            return Convert.ToString(Math.Round(res, 2));
+            return res;
         }
     }
 }
