@@ -11,7 +11,7 @@ namespace Tyuiu.MitinNV.Sprint5.Task1.V19.Lib
             {
                 if (!(3 * x + 0.5 == 0))
                 {
-                    var a = Convert.ToString(Math.Sin(x) + ((2) / (3 * x + 0.5)) - 2 * Math.Cos(x) * 2 * x);
+                    var a = Convert.ToString(Math.Round(Math.Sin(x) + ((2) / (3 * x + 0.5)) - 2 * Math.Cos(x) * 2 * x, 2));
                     if (x != stopValue)
                     {
                         res += a + "\n";
