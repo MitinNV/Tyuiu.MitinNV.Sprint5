@@ -34,11 +34,11 @@ namespace Tyuiu.MitinNV.Sprint5.Task0.V22
             Console.WriteLine("***************************************************************************");
 
             DataService ds = new DataService();
-            int a, b;
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
-            var result = ds.YOURFUNCTION(a, b);
-            Console.WriteLine(result);
+            string outputDirectory = Path.GetTempPath();
+            string outputFileName = "OutPutFileTask0.txt";
+            string outputFilePath = Path.Combine(outputDirectory, outputFileName);
+            File.WriteAllText(outputFilePath, ds.SaveToFileTextData(3));
+            Console.WriteLine(ds.SaveToFileTextData(3));
             Console.ReadKey();
         }
     }

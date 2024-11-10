@@ -9,8 +9,8 @@ namespace Tyuiu.MitinNV.Sprint5.Task0.V22.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            var varForTest = 0;
-            Assert.AreEqual(varForTest, ds.YOURFUNCTION());
+            var varForTest = "-0";
+            Assert.AreEqual(varForTest, ds.SaveToFileTextData(3));
         }
     }
 }

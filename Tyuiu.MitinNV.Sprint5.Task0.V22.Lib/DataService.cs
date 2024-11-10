@@ -6,7 +6,8 @@ namespace Tyuiu.MitinNV.Sprint5.Task0.V22.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            throw new NotImplementedException();
+            var res = Math.Round(Math.Pow(1 - x, 2) / (-3 * x));
+            return Convert.ToString(res);
         }
     }
 }
