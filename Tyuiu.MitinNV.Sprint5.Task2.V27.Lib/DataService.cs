@@ -30,6 +30,8 @@ namespace Tyuiu.MitinNV.Sprint5.Task2.V27.Lib
                             res += Convert.ToString(matrix[i, j]) + ";";
                         }
                     }
+
+                    counter++;
                 } 
             }
 
