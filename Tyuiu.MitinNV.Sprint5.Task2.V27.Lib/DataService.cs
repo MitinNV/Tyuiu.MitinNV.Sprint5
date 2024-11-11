@@ -17,16 +17,16 @@ namespace Tyuiu.MitinNV.Sprint5.Task2.V27.Lib
                         matrix[i, j] = 0;
                     }
 
-                    if (i != 2 && j != 2)
+                    if (i == 2 && j == 2)
+                    {
+                        res += Convert.ToString(matrix[i, j]);
+                    } else
                     {
                         res += Convert.ToString(matrix[i, j]) + ";";
                         if (counter % 3 == 0)
                         {
                             res += "\n";
-                        }   
-                    } else
-                    {
-                        res += Convert.ToString(matrix[i, j]);
+                        }
                     }
                 } 
             }
