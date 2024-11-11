@@ -6,10 +6,11 @@ namespace Tyuiu.MitinNV.Sprint5.Task4.V8.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            double x;
-            x = Convert.ToDouble(File.ReadAllText(path));
-
-            return Math.Round(((x*x) / Math.Sin(x)) + 3, 3);
+            string x;
+            double res;
+            x = File.ReadAllText(path).Replace(".", ",");
+            res = Convert.ToDouble(x);
+            return Math.Round(((res*res) / Math.Sin(res)) + 3, 3);
         }
     }
 }
