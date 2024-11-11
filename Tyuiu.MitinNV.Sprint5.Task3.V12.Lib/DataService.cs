@@ -9,7 +9,7 @@ namespace Tyuiu.MitinNV.Sprint5.Task3.V12.Lib
             double calculation = Math.Round(Math.Pow(x, 3) / (2 * Math.Pow(x + 5, 2)), 3);
             byte[] byteArray = BitConverter.GetBytes(calculation);
 
-            return Convert.ToString(byteArray);
+            return Convert.ToHexString(byteArray);
         }
     }
 }
