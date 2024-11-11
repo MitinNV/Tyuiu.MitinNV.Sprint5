@@ -7,6 +7,7 @@ namespace Tyuiu.MitinNV.Sprint5.Task2.V27.Lib
         public string SaveToFileTextData(int[,] matrix)
         {
             var res = "";
+            var counter = 1;
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
@@ -15,12 +16,19 @@ namespace Tyuiu.MitinNV.Sprint5.Task2.V27.Lib
                     {
                         matrix[i, j] = 0;
                     }
-                } 
-            }
 
-            foreach (var item in matrix)
-            {
-                res += Convert.ToString(item);
+                    if (i != 2 && j != 2)
+                    {
+                        res += Convert.ToString(matrix[i, j]) + ";";
+                        if (counter % 3 == 0)
+                        {
+                            res += "\n";
+                        }   
+                    } else
+                    {
+                        res += Convert.ToString(matrix[i, j]);
+                    }
+                } 
             }
 
             return res;
