@@ -9,8 +9,8 @@ namespace Tyuiu.MitinNV.Sprint5.Task4.V8.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            var varForTest = 0;
-            Assert.AreEqual(varForTest, ds.YOURFUNCTION());
+            var varForTest = 5.129;
+            Assert.AreEqual(varForTest, ds.LoadFromDataFile("C:\\DataSprint5\\InPutDataFileTask4V8.txt"));
         }
     }
 }

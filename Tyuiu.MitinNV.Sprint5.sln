@@ -33,6 +33,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task4.V8.Test", "Tyuiu.MitinNV.Sprint5.Task4.V8.Test\Tyuiu.MitinNV.Sprint5.Task4.V8.Test.csproj", "{E9AF6C14-3899-425F-A7C3-B607134970A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task5.V7.Lib", "Tyuiu.MitinNV.Sprint5.Task5.V7.Lib\Tyuiu.MitinNV.Sprint5.Task5.V7.Lib.csproj", "{E8B8C21F-7EAC-4D77-8B9C-5B3B082330E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task5.V7", "Tyuiu.MitinNV.Sprint5.Task5.V7\Tyuiu.MitinNV.Sprint5.Task5.V7.csproj", "{5F0839AE-CC5E-43F3-A8EE-439D0848F297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task5.V7.Test", "Tyuiu.MitinNV.Sprint5.Task5.V7.Test\Tyuiu.MitinNV.Sprint5.Task5.V7.Test.csproj", "{A41270BC-E7B8-448F-91C8-516E81C30684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +108,17 @@ Global
 		{E9AF6C14-3899-425F-A7C3-B607134970A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9AF6C14-3899-425F-A7C3-B607134970A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9AF6C14-3899-425F-A7C3-B607134970A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B8C21F-7EAC-4D77-8B9C-5B3B082330E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B8C21F-7EAC-4D77-8B9C-5B3B082330E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B8C21F-7EAC-4D77-8B9C-5B3B082330E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B8C21F-7EAC-4D77-8B9C-5B3B082330E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0839AE-CC5E-43F3-A8EE-439D0848F297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0839AE-CC5E-43F3-A8EE-439D0848F297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0839AE-CC5E-43F3-A8EE-439D0848F297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0839AE-CC5E-43F3-A8EE-439D0848F297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41270BC-E7B8-448F-91C8-516E81C30684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41270BC-E7B8-448F-91C8-516E81C30684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41270BC-E7B8-448F-91C8-516E81C30684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41270BC-E7B8-448F-91C8-516E81C30684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
