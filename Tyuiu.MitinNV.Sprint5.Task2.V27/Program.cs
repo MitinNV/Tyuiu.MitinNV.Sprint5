@@ -34,10 +34,8 @@ namespace Tyuiu.MitinNV.Sprint5.Task2.V27
             Console.WriteLine("***************************************************************************");
 
             DataService ds = new DataService();
-            int a, b;
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
-            var result = ds.YOURFUNCTION(a, b);
+            var a = new int[,] { { 1, 4, 3 }, { 1, 1, 4 }, { 4, 3, 8 } };
+            var result = ds.SaveToFileTextData(a);
             Console.WriteLine(result);
             Console.ReadKey();
         }
