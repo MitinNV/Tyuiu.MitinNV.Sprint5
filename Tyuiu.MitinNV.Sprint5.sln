@@ -45,6 +45,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task6.V26.Test", "Tyuiu.MitinNV.Sprint5.Task6.V26.Test\Tyuiu.MitinNV.Sprint5.Task6.V26.Test.csproj", "{E64549A9-5EA7-407B-B9F8-8CDC66930A9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task7.V10.Lib", "Tyuiu.MitinNV.Sprint5.Task7.V10.Lib\Tyuiu.MitinNV.Sprint5.Task7.V10.Lib.csproj", "{626053C5-2340-46B7-ADC5-7AE9671E0DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task7.V10", "Tyuiu.MitinNV.Sprint5.Task7.V10\Tyuiu.MitinNV.Sprint5.Task7.V10.csproj", "{BBE2FEDA-8E17-4CEB-A273-274174B91DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint5.Task7.V10.Test", "Tyuiu.MitinNV.Sprint5.Task7.V10.Test\Tyuiu.MitinNV.Sprint5.Task7.V10.Test.csproj", "{FBC09F3A-348E-4EA2-9759-639E7336ED1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,5 +144,17 @@ Global
 		{E64549A9-5EA7-407B-B9F8-8CDC66930A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E64549A9-5EA7-407B-B9F8-8CDC66930A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E64549A9-5EA7-407B-B9F8-8CDC66930A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626053C5-2340-46B7-ADC5-7AE9671E0DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626053C5-2340-46B7-ADC5-7AE9671E0DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626053C5-2340-46B7-ADC5-7AE9671E0DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626053C5-2340-46B7-ADC5-7AE9671E0DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE2FEDA-8E17-4CEB-A273-274174B91DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE2FEDA-8E17-4CEB-A273-274174B91DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE2FEDA-8E17-4CEB-A273-274174B91DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE2FEDA-8E17-4CEB-A273-274174B91DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC09F3A-348E-4EA2-9759-639E7336ED1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC09F3A-348E-4EA2-9759-639E7336ED1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC09F3A-348E-4EA2-9759-639E7336ED1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC09F3A-348E-4EA2-9759-639E7336ED1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
